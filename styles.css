@@ -1,0 +1,67 @@
+body {
+	background: black;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 10px;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+	padding: 10px;
+	font-size: large;
+}
+
+.body-right {
+	margin-top: 5px;
+	padding: 10px;
+}
+
+.p Nombre {
+	text-decoration: underline;
+}
+
+.p Email {
+	text-decoration: underline;
+}
+
+.p Comentario {
+	text-decoration: underline;
+}
+
+input {
+	border: none;
+	border-bottom: gray 1px solid;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	padding: 7px;
+}
